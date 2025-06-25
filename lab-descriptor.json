@@ -1,141 +1,112 @@
 {
   "broadArea": {
     "name": "Computer Science and Engineering",
-    "link": "http://vlab.co.in/broad-area-computer-science-and-engineering",
-    "code": "CSE"
+    "link": "https://www.vlab.co.in/broad-area-mechanical-engineering",
+    "code": "MECH"
   },
-  "lab": "Data Structures – 1",
-  "lab_display_name": "Data Structures – 1",
-  "phase": 3,
-  "collegeName": "IIITH",
-  "baseUrl": "ds1-iiith.vlabs.ac.in",
-  "introduction": "Welcome to the Data Structures Lab - I developed at IIIT Hyderabad. Data Structures (also called Data Structures and Algorithms in some places) is a core course in all computer science undergraduate curricula. The course is the basis for understanding several data structures and also algorithms that operate on them. The course forms the foundation for almost all computer science subjects: compilers, operating systems, databases, AI and software engineering. The course comes with a lab in most universities in India. The associated lab in university curricula focuses on implementation of algorithms operating on the data structures, i.e., coding programs on the data structures and algorithms. Students embarking on the task of writing programs, however, often have difficulty visualizing how operations and algorithms modify a data structure. As a result students are often unable to understand or show the execution of an algorithm on a given data structure and write code effectively. Furthermore, students are unable to visually reason about the time and space complexities associated with an algorithm running on a data structure. The interactive experiments in this lab will give the students an opportunity for learning and better understanding of using algorithms.",
-  "experiment-sections": [
-    {
-      "sect-name": "Sorting",
-      "experiments": [
-        {
-          "name": "Bubble Sort",
-          "short-name": "bubble-sort",
-          "repo": "https://github.com/virtual-labs/exp-bubble-sort-iiith.git",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Merge Sort",
-          "short-name": "merge-sort",
-          "repo": "https://github.com/virtual-labs/exp-merge-sort-iiith.git",
-          "tag": "v1.0.8",
-          "deploy": true
-        },
-        {
-          "name": "Heap Sort",
-          "short-name": "heap-sort",
-          "repo": "https://github.com/virtual-labs/exp-heap-sort-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Quick Sort",
-          "short-name": "quick-sort",
-          "repo": "https://github.com/virtual-labs/exp-quick-sort-iiith",
-          "tag": "v1.0.8",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Graphs",
-      "experiments": [
-        {
-          "name": "Depth First Search",
-          "short-name": "depth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-dfs-iiith",
-          "tag": "v1.0.9",
-          "deploy": true
-        },
-        {
-          "name": "Breadth First Search",
-          "short-name": "breadth-first-search",
-          "repo": "https://github.com/virtual-labs/exp-bfs-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Trees",
-      "experiments": [
-        {
-          "name": "Tree Traversal",
-          "short-name": "tree-traversal",
-          "repo": "https://github.com/virtual-labs/exp-tree-traversal-iiith/",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Binary Search Trees",
-          "short-name": "binary-search-trees",
-          "repo": "https://github.com/virtual-labs/exp-bst-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Searching",
-      "experiments": [
-        {
-          "name": "Unsorted Arrays",
-          "short-name": "unsorted-arrays",
-          "repo": "https://github.com/virtual-labs/exp-unsorted-arrays-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Hashtables",
-          "short-name": "hash-tables",
-          "repo": "https://github.com/virtual-labs/exp-hashtables-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        }
-      ]
-    },
-    {
-      "sect-name": "Linked Lists",
-      "experiments": [
-        {
-          "name": "Linked lists",
-          "short-name": "linked-list",
-          "repo": "https://github.com/virtual-labs/exp-linked-lists-iiith",
-          "tag": "v1.0.7",
-          "deploy": true
-        },
-        {
-          "name": "Polynomial Arithmetic using linked lists",
-          "short-name": "poly-arithmetic",
-          "repo": "https://github.com/virtual-labs/exp-polynomial-arithmetic-iiith",
-          "tag": "v1.0.6",
-          "deploy": true
-        }
-      ]
-    }
-  ],
+  "lab": " Manufacturing Processes (Foundry & Casting) Virtual Simulation Lab",
+  "lab_display_name": " Manufacturing Processes (Foundry & Casting) Virtual Simulation Lab",
+  "phase": "3-ext",
+  "collegeName": "DLBG",
+  "baseUrl": "mp-dei.vlabs.ac.in",
+  "introduction": "Welcome to the Manufacturing Processes (Foundry & Casting) Virtual Simulation Lab. Casting is a manufacturing process in which molten metal is poured into a pre-designed mould cavity and then left to solidify. Final solidified product of this process is known as casting which needs various post-processing operations. Using this Virtual simulation lab students will be able to visualize and simulate various casting experiments taught in the university, on his/her computer.",
+  "experiments": [
+  {
+    "name": "To study and observe various stages of casting through demonstration of sand casting process",
+    "short-name": "study-observe-stages-casting-sand-casting-process",
+    "repo": "https://github.com/virtual-labs/exp-sand-casting-process-dei",
+    "tag": "v1.1.0",
+    "deploy": true
+  },
+  {
+    "name": "To design and manufacture a wooden pattern for a given casting",
+    "short-name": "design-manufacture-wooden-pattern-given-casting",
+    "repo": "https://github.com/virtual-labs/exp-wooden-pattern-dei",
+    "tag": "v1.1.0",
+    "deploy": true
+  },
+  {
+    "name": "To study core and core making",
+    "short-name": "study-core-core-making",
+    "repo": "https://github.com/virtual-labs/exp-core-making-dei",
+    "tag": "v1.1.0",
+    "deploy": true
+  },
+  {
+    "name": "To perform strength tests on sands",
+    "short-name": "perform-strength-tests-sands",
+    "repo": "https://github.com/virtual-labs/exp-strength-tests-on-sands-dei",
+    "tag": "v1.1.0",
+    "deploy": true
+  },
+  {
+    "name": "To determine the percentage of clay present in base sand",
+    "short-name": "determine-percentage-clay-present-base-sand",
+    "repo": "https://github.com/virtual-labs/exp-clay-present-in-base-sand-dei",
+    "tag": "v1.1.0",
+    "deploy": true
+  },
+  {
+    "name": "Determination of mould hardness and core hardness",
+    "short-name": "determination-mould-hardness-core-hardness",
+    "repo": "https://github.com/virtual-labs/exp-mould-core-hardness-dei",
+    "tag": "v1.1.0",
+    "deploy": true
+  },
+  {
+    "name": "To determine permeability number of green sand, core sand and raw sand",
+    "short-name": "determine-permeability-number-green-sand-core-sand-raw-sand",
+    "repo": "https://github.com/virtual-labs/exp-permeability-number-dei",
+    "tag": "v1.1.0",
+    "deploy": true
+  },
+  {
+    "name": "To study the various steps of investment casting process",
+    "short-name": "study-various-steps-investment-casting-process",
+    "repo": "https://github.com/virtual-labs/exp-investment-casting-process-dei",
+    "tag": "v1.1.0",
+    "deploy": true
+  },
+  {
+    "name": "To find the distribution of sand grains using a set of sieves and obtain the average grain fineness number",
+    "short-name": "find-distribution-sand-grains-sieves-average-grain-fineness-number",
+    "repo": "https://github.com/virtual-labs/exp-grain-fineness-number-dei",
+    "tag": "v1.1.0",
+    "deploy": true
+  },
+  {
+    "name": "To prepare a pattern for given object for lost foam casting",
+    "short-name": "prepare-pattern-given-object-lost-foam-casting",
+    "repo": "https://github.com/virtual-labs/exp-lost-foam-casting-dei",
+    "tag": "v1.1.0",
+    "deploy": true
+  }
+]
+,
   "targetAudience": {
     "UG": [
-      " Data Structures & Algorithms for 1st & 2nd year B. Tech./ B.E in Computer Science & Information Technology <br/>- B.Sc / B.S in Computer Science "
+      "B. Tech. / B.E. in Mechanical Engineering"
     ],
     "PG": [
-      "Computer Science, Information Technology, Compilers, Operating systems, Databases, AI and Software engineering. <br/> - Ph. D. Beginners"
+      "MS / Ph. D. Beginners in Mechanical Engineering"
     ]
   },
-  "objective": "The Virtual Lab for Data Structures will focus on creating an environment where the student interactively explores data structures. The role of this Virtual Labs is to complement the lectures and reading material and the programming lab in three ways : 1. Present visual animations of data structures 2. Allow students to interactively execute algorithms in these data structures. 3. Allow students to interactively compute the cost of using these data structures with different algorithms.",
+  "objective": "<ol><li>Students will be able to: Readily identify all the components and function of a mould with their proper arrangement.</li><li>Students will be able to: Observe the formation of gating system stepwise in drag and cope respectively.</li><li>Students will be able to: Pour the molten metal into the pouring basin and observe the flow of the metal throughout the gating system.</li><li>Students will be able to: Study different types of common casting defects that are generated and get to know a possible solution for every defect.</li><li>Students will be able to: Rationally answer every question related to the process of sand casting.</li><li>To study and observe various stages of casting through demonstration of the sand casting process.</li><li>To perform strength tests on sands.</li><li>To determine the percentage of clay present in base sand.</li><li>To determine the permeability number of green sand, core sand and raw sand.</li><li>To find the distribution of sand grains using a set of sieves and obtain the average grain fineness number.</li></ol>",
   "courseAlignment": {
-    "description": "The syllabi of this lab aligns to the following universities in India.",
+    "description": "The syllabi of this lab aligns to the following universities:",
     "universities": [
-      "Osmania University Data Structures Lab",
-      "JNTU Data Structures Lab"
+"Indian Institute of Technology, Kanpur.",
+"Institute of Aeronautical Engineering.",
+"Malla Reddy College of Engineering & Technology.",
+"Geethanjali College of Engineering & Technology.",
+"JSS Science & Technology University.",
+"Channabasaveshwara Institute of Technology.",
+"M.S. Engineering College.",
+"Bapuji Institute of Engineering and Technology.",
+"Chandubhai S Patel Institute of Technology.",
+"Ned University of Engineering and Technology"
+
     ]
 
- 
+  }
 }
